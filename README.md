@@ -19,3 +19,5 @@ Static GitHub Pages site for `https://saltysec.github.io/studyguides/`.
 The landing page links use relative paths, so all files should remain alongside `index.html`. To update a guide or RoadWise, replace the corresponding HTML file and commit the change. The included `roadwise.html` is the current RoadWise app supplied by the owner and edited for this package.
 
 Study-guide progress is saved separately for each visitor in that browser's `localStorage`. The site has no accounts or shared progress. RoadWise depends on external map libraries and live OpenStreetMap/Nominatim/Overpass services; it needs internet access and those services may rate-limit requests.
+
+The Region VIII guide loads protocol page images from `region8-pages/`. Upload that entire folder alongside `region-viii-emt.html`. The questions reference the June 2024 PDF bundled here; check Loyola's current edition for clinical use.
